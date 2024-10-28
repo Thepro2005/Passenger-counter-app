@@ -1,0 +1,47 @@
+body{
+    background-image: url("counter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', 'Lato', 'Open Sans', 'Montserrat', 'Poppins', 'Merriweather', 'Playfair Display', 'Georgia', 'Bitter', 'Crimson Text', 'Roboto Mono', 'Courier New', 'Fira Code', 'Inconsolata', 'Source Code Pro', 'Pacifico', 'Oswald', 'Raleway', 'Bebas Neue', 'Abril Fatface', 'Dancing Script', 'Amatic SC', 'Lobster', 'Indie Flower', 'Shadows Into Light', sans-serif, serif, monospace, cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:20px;
+}
+.item{
+    position:relative;
+    top:30%;
+}
+.txt{
+    color:black;
+    font-size: 50px;
+}
+
+#Increment{
+    width:15vw;
+    height:3vh;
+    border-radius: 8px;
+    background-color: red;
+    color: aliceblue;
+}
+
+#Save{
+    width:15vw;
+    height:3vh;
+    border-radius: 8px;
+    background-color: green;
+    color: aliceblue;
+}
+
+button{
+    font-weight: bold;
+}
+
+p{
+    font-size: 25px;
+    color:black;
+    font-weight: bold;
+
+}
